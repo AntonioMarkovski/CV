@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap");
+body {
+  font-family: "Roboto", sans-serif !important;
+  background-color: #000000d4 !important;
+}
+
+th,
+td {
+  font-size: 21px;
+  font-family: "PT Sans Narrow", sans-serif !important;
+}
+
+@media (min-width: 1200px) {
+  .container,
+  .container-sm,
+  .container-md,
+  .container-lg,
+  .container-xl {
+    max-width: 1470px !important;
+  }
+}
+/* @ Texts color  style */
+.color {
+  color: #969696;
+}
+.second-color {
+  color: #eee3e3;
+}
+.titles-color {
+  color: #9ed2ff;
+}
+/* @ Image Style */
+.img-style {
+  border: 10px solid white;
+  margin-left: 20px;
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 50%;
+  image-rendering: -webkit-optimize-contrast;
+}
+
+/* @  paragraph style */
+.title-style {
+  color: #9ed2ff;
+  font-size: 50px;
+  margin: 20px 0px 20px 20px;
+}
+
+.under-header {
+  margin-left: 25px;
+  font-size: 25px;
+}
+
+.hov {
+  color: #eee3e3;
+}
+
+.hov:hover {
+  color: #f5f5f5;
+  text-decoration: none !important;
+}
+
+.div-up {
+  margin-top: -190px;
+}
+.div-down {
+  padding-top: 90px;
+}
+.circle {
+  margin-top: 12px;
+  margin-right: 25px;
+  width: 30px;
+  height: 30px;
+  background-color: #9ed2ff;
+  border-radius: 50%;
+}
+
+.table-style {
+  margin-top: 50px;
+  width: 70%;
+}
+
+table,
+th,
+td {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+}
+
+p {
+  font-weight: 600;
+  color: #969696;
+}
+
+h3 {
+  color: white !important;
+  font-weight: 600 !important;
+}
+
+.size-p {
+  font-size: 20px;
+}
+
+.ongoing-style {
+  font-size: 1.5rem;
+  color: #cab286;
+}
+
+.bg-headers {
+  background-color: #cacccf;
+}
+
+.width-style {
+  text-align: justify;
+  width: 450px;
+}
+
+.header-style {
+  padding: 4px;
+}
+
+.f-skill {
+  padding: 5px 0;
+  display: flex;
+}
+
+.f-name {
+  width: 150px;
+}
+
+.f-kn-range {
+  width: 40%;
+  height: 20px;
+  background-color: #121935;
+  margin-left: 10%;
+}
+
+.f-sk-range {
+  height: 20px;
+  background-color: #48c7c7;
+}
+
+/* @ Media Query */
+@media only screen and (max-width: 768px) {
+  .div-img-style {
+    text-align: center;
+  }
+  .div-up {
+    padding-top: 25px;
+    margin-top: 0px;
+  }
+  .div-down {
+    padding-top: 25px;
+  }
+}
