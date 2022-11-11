@@ -1,0 +1,70 @@
+.col-5 {
+  padding-right: 25px !important;
+  padding-left: 25px !important;
+}
+
+.col-7 {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+
+.leftside {
+  background-color: rgb(233, 181, 126) !important;
+  height: auto;
+}
+
+.img {
+  background: url(../Images/DSC02774.JPG) no-repeat;
+  width: 200px;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  image-rendering: -webkit-optimize-contrast;
+  zoom: 1.5;
+}
+
+.div-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.background-title {
+  background-color: rgb(37, 37, 37);
+  padding: 5px;
+  color: white;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.f-kn-range {
+  width: 100%;
+  height: 20px;
+  background-color: #7e7e7e;
+}
+
+.f-sk-range {
+  height: 20px;
+  background-color: rgb(37, 37, 37);
+}
+
+.rigthside {
+  background-color: rgb(244, 244, 244) !important;
+  height: auto;
+}
+
+.background-rightside {
+  background-color: rgb(37, 37, 37);
+}
+
+.icon-style {
+  font-size: 35px;
+  color: white;
+  text-decoration: none !important;
+}
+.icon-style:hover {
+  color: rgb(233, 181, 126);
+  text-decoration: none !important;
+}/*# sourceMappingURL=main.css.map */
